@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,9 +12,9 @@
 <body>
     <!-- Loader page -->
  
-    <!-- <div class="Loader">
-        <div class="Loader_title">
-            <div class="Loader_title_options">
+    <div class="loader">
+        <div class="loader_title">
+            <div class="loader_title_options">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" alt="">
                 <div>File</div>
                 <div>Edit</div>
@@ -24,16 +25,16 @@
                 <div class="option_to_dispear">Terminal</div>
                 <div>Help</div>
             </div>
-            <div class="Loader_title_windows">
+            <div class="loader_title_windows">
                 <i class="fa fa-window-minimize" aria-hidden="true"></i>
                 <i class="fa fa-window-maximize" aria-hidden="true"></i>
                 <i class="fa fa-window-close" aria-hidden="true"></i>
             </div>
 
         </div>
-        <div class="Loader_content">
-            <div class="Loader_content_left">
-                <div class="Loader_content_explorer">
+        <div class="loader_content">
+            <div class="loader_content_left">
+                <div class="loader_content_explorer">
                     <p>EXPLORER</p>
                     <p>...</p>
                 </div>
@@ -78,8 +79,8 @@
                     <h5>TIMELINE</h5>
                 </div>
             </div>
-            <div class="Loader_content_right">
-                <div class="Loader_content_txt">
+            <div class="loader_content_right">
+                <div class="loader_content_txt">
                     <div class="css-typing-1">
                         <p>1 &nbsp; <span style="color: #4579a3">const</span> <span style="color:#75a1b9">Object</span> = &#123;</p>
                         <p>
@@ -109,7 +110,7 @@
                 
                     </div>
                 </div>
-                <div class="Loader_content_terminal">
+                <div class="loader_content_terminal">
                     <div class="terminal_options">
                         <div class="terminal_option">
                             <h5>TERMINAL</h5>
@@ -130,45 +131,47 @@
                 </div>
             </div>
     </div>    
-    </div> -->
+    </div>
 
-    <i class="fa fa-times opensidebar" aria-hidden="true"></i>
-
+    
     <div class="portfolio">
+        <i class="fa fa-times opensidebar" aria-hidden="true"></i>
         <div class="sidebar">
             <div class="sidebar_header">
-                <h1>Tyler Nam</h1>
-                <h2>Portfolio</h2>
+                <a href="">
+                    <h1>Tyler Nam</h1>
+                    <h2>Portfolio</h2>
+                </a>
             </div>
             <div class="sidebar_body">
                 <ul>
-                    <li data-text="Home"><a href="#home">Home</a></li>
-                    <li data-text="About"><a href="#about">About</a></li>
-                    <li data-text="Service"><a href="#service">Service</a></li>
-                    <li data-text="Skills"><a href="#skills">Skills</a></li>
-                    <li data-text="Work"><a href="#work">Work</a></li>
-                    <li data-text="Contact"><a href="#contact">Contact</a></li>
+                    <li class="sidebar_option" data-text="Home"><a href="#home">Home</a></li>
+                    <li class="sidebar_option" data-text="About"><a href="#about">About</a></li>
+                    <li class="sidebar_option" data-text="Service"><a href="#service">Service</a></li>
+                    <li class="sidebar_option" data-text="Skills"><a href="#skills">Skills</a></li>
+                    <li class="sidebar_option" data-text="Work"><a href="#work">Work</a></li>
+                    <li class="sidebar_option" data-text="Contact"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="sidebar_footer">
                 <div class="logo">
-                    <a href="https://www.facebook.com/taehyun.nam.9">
+                    <a href="https://www.facebook.com/taehyun.nam.9" target="_blank">
                         <li class="facebook">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fa fa-facebook-f"></i>
                         </li>
                     </a>
-                    <a href="https://www.instagram.com/the.bisang/">
+                    <a href="https://www.instagram.com/the.bisang/" target="_blank">
                         <li class="instagram">
-                            <i class="fab fa-instagram"></i>
+                            <i class="fa fa-instagram"></i>
                         </li>
-                    <a href="https://www.linkedin.com/in/tyler-nam-b847ab18a/">
+                    <a href="https://www.linkedin.com/in/tyler-nam-b847ab18a/" target="_blank">
                         <li class="linkedin">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fa fa-linkedin"></i>
                         </li>
                     </a>
-                    <a href="https://www.github.com/taehyun9202">
+                    <a href="https://www.github.com/taehyun9202" target="_blank">
                         <li class="github">
-                            <i class="fab fa-github-alt"></i>
+                            <i class="fa fa-github-alt"></i>
                         </li>
                     </a>
                 </div>
@@ -215,7 +218,7 @@
                             </div>
                             <div>
                                 <h5>Website</h5>
-                                <p><a href="https://tylernportfolio.netlify.app">tylernportfolio.netlify.app</a></p>
+                                <p><a href="https://tylernportfolio.netlify.app" target="_blank">tylernportfolio.netlify.app</a></p>
                             </div>
                             <div>
                                 <h5>Phone</h5>
@@ -223,17 +226,17 @@
                             </div>
                             <div>
                                 <h5>Linkedin</h5>
-                                <p><a href="https://www.linkedin.com/in/tyler-nam-b847ab18a/">tyler-nam-b847ab18a</a></p>
+                                <p><a href="https://www.linkedin.com/in/tyler-nam-b847ab18a/" target="_blank">tyler-nam-b847ab18a</a></p>
                             </div>
                             <div>
                                 <h5>Github</h5>
-                                <p><a href="https://github.com/taehyun9202">github.com/taehyun9202</a></p>
+                                <p><a href="https://github.com/taehyun9202" target="_blank">github.com/taehyun9202</a></p>
                             </div>
                             <div>
 
                             </div>
                             <div class="about_resume">
-                                <a href="static/Tyler Resume.pdf">See Resume</a>
+                                <a href="static/Tyler Resume.pdf" target="_blank">See Resume</a>
                             </div>
                         </div>
                     </div>
@@ -243,19 +246,243 @@
 
             <section class="section_service" id="service">
                 <h1>Service</h1>
-                <i class="fa fa-laptop" aria-hidden="true"></i>
-                <i class="fa fa-tablet" aria-hidden="true"></i>
-                <i class="fa fa-code" aria-hidden="true"></i>
+                <div class="service_list">
+                    <div class="service_service">
+                        <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+                        <h3 class="service_title">Web Development</h3>
+                        <p class="service_description">I use python django, C# ASP.NET Core, and mainly REACT MERN stack to develop full stack web services. </p>
+                    </div>
+                    <div class="service_service">
+                        <i class="fa fa-tablet fa-5x" aria-hidden="true"></i>
+                        <h3 class="service_title">Responsive Web</h3>
+                        <p class="service_description">I use Bootstrap or manually use CSS media screen to make web responsive, I started learn CSS to make resposnive manually and improve my CSS skill now I prefer using CSS more now!</p>
+                    </div>
+                    <div class="service_service">
+                        <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+                        <h3 class="service_title">Development</h3>
+                        <p class="service_description">When I dont build website, I try to learn and experience new skills and technology such as JAVA, Pygame, Python Selenium, to improve my coding skills and expand horizons</p>
+                    </div>
+                    <div class="service_service">
+                        <i class="fa fa-server fa-5x" aria-hidden="true"></i>
+                        <h3 class="service_title">Server Side</h3>
+                        <p class="service_description">For backend, I use MySQL, SQLite, MongoBD including backend frameworks like Nodejs, ExpressJs, and Django.</p>
+                    </div>
+                    <div class="service_service">
+                        <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+                        <h3 class="service_title">Mobile</h3>
+                        <p class="service_description">Mobile web is one of my recent interests nowdays. I only have experience with react native with cli and expo.</p>
+                    </div>
+                </div>
             </section>
 
 
             <section class="section_skills" id="skills">
-                hello from section_skills
+                <h1>Skills</h1>
+                <div class="skills_content">
+                    <div class="skills_text">
+                        <p>I believe I have solid foundation in Javascript, HTML, and css</p>
+                        <p>80% of my projects were created using react</p>
+                    </div>
+                    <div class="skills_bars">
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>Javascript</label>
+                                <p>95%</p>
+                            </div>
+                            <div class="skilbar" style="--i:95%"></div>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>HTML</label>
+                                <p>90%</p>
+                            </div>
+                            <div class="skilbar" style="--i:90%"></div>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>CSS</label>
+                                <p>90%</p>
+                            </div>
+                            <div class="skilbar" style="--i:90%"></div>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>React</label>
+                                <p>95%</p>
+                            </div>
+                            <div class="skilbar" style="--i:95%"></div>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>Python</label>
+                                <p>85%</p>
+                            </div>
+                            <div class="skilbar" style="--i:85%"></div>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_label">
+                                <label>C#</label>
+                                <p>80%</p>
+                            </div>
+                            <div class="skilbar" style="--i:80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="section_work" id="work">
+                <h1>My Works</h1>
+                <h2>Projects</h2>
+                <div class="work_list">
+                    <a href="https://dinerredux.web.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/brouchure.PNG" alt="brouchure" class="work_img">
+                            <h2>Brouchure Website</h2>
+                            <div class="work_description">
+                                <p>Mobile friednly brochure website built with React js</p>
+                                <p>Using Redux state and Stripe</p>
+                                <p>Support mobile and tablet mode</p>
+                                <p>Deployed using firebase.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://clo-c068c.web.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/amazonclone.PNG" alt="amazonclone" class="work_img">
+                            <h2>Amazon Clone</h2>
+                            <div class="work_description">
+                                <p>E-commerce project built with React js</p>
+                                <p>Built CRUD restful API firebase</p>
+                                <p>Featuring login/register validation, Bcrypt password hashing, session.</p>
+                                <p>Allow user to purchase item using stripe.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://riotstatapi.web.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/riotStat.PNG" alt="riotStat" class="work_img">
+                            <h2>Riot Stat</h2>
+                            <div class="work_description">
+                                <p>Inspired by OP GG</p>
+                                <p>Data fecting focused website built with React js</p>
+                                <p>Focused applying JS async, promise and callback</p>
+                                <p>Needed multiple proxy setup and used Access-Control-Allow-Origin extension</p>
+                                <p>Chrome Access-Control-Allow-Origin extension needed</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://discord-9911c.web.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/discordclone.PNG" alt="discordclone" class="work_img">
+                            <h2>Discord Clone</h2>
+                            <div class="work_description">
+                                <p>Discord Clone project built with React js</p>
+                                <p>Deployed with firebase with socket and redux</p>
+                                <p>Save and get Data from firebase server</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://18.212.14.236/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/covidmap.PNG" alt="covidmap" class="work_img">
+                            <h2>Covid Map</h2>
+                            <div class="work_description">
+                                <p>Covid Map project built with React js</p>
+                                <p>Mobile friendly, data visualization focused, website</p>
+                                <p>Import JSON API regarding US COVID-19 data and display cumulative and daily data</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <h2>Just for Fun</h2>
+                <div class="work_list">
+                    <a href="https://pokemonlook.netlify.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/pokemon.PNG" alt="pokemonlook" class="work_img">
+                            <h2>Which Pokemon Do I Look Like?</h2>
+                            <div class="work_description">
+                                <p>Image detecting program using google teachable machine</p>
+                                <p>Return Most similar pokemon to result</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://squathelper.netlify.app/" target="_blank">
+                        <div class="work_work">
+                            <img src="static/squat.PNG" alt="squathelper" class="work_img">
+                            <h2>Motion Detecting Squat Helper</h2>
+                            <div class="work_description">
+                                <p>Motion detecting program using google teachable machine</p>
+                                <p>Recognize user's move and count if motion detected</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="busterBros.exe" download>
+                        <div class="work_work">
+                            <img src="static/busterbros.PNG" alt="busterBros" class="work_img">
+                            <h2>Buster Bros</h2>
+                            <div class="work_description">
+                                <p>Buster Bros game clone</p>
+                                <p>Using Pygame</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ImageCombiner.exe" download>
+                        <div class="work_work">
+                            <img src="static/imagecombiner.PNG" alt="ImageCombiner" class="work_img">
+                            <h2>Image Combiner</h2>
+                            <div class="work_description">
+                                <p>Image Combiner using GUI</p>
+                                <p>Scrapped image from website using beautifulsoup and selenium</p>
+                                <p>Able to select any image file on your computer</p>
+                                <p>Able to combine any format you choose and save in chosen directory</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://replit.com/@TaehyunTyler/signature-loading" target="_blank">
+                        <div class="work_work">
+                            <img src="static/signatureloading.PNG" alt="signatureloading" class="work_img">
+                            <h2>Signature Loading</h2>
+                            <div class="work_description">
+                                <p>Studied and Played with svg</p>
+                                <p>Loading page for personal use</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </section>
 
 
             <section class="section_contact" id="contact">
-                hello from section_contact
+                <h1>Contact Me</h1>
+                <div class="contact_content"> 
+                    <div>
+                        <h3>Get in Touch</h3>
+                        <div class="email">
+                            <input type="email" placeholder="Email Address">
+                            <input type="text" placeholder="Subject">
+                            <textarea type="text" rows="8" cols="50"></textarea>
+                            <button type="submit">Send Email</button> 
+                        </div>
+                    </div>
+                    <div>
+                        <h3>My Info.</h3>
+                        <div>
+                            <h5>Phone</h5>
+                            <p>703) 400 - 9295</p>
+                        </div>
+                        <div>
+                            <h5>EMail</h5>
+                            <p>taehyun9202@hotmail.com</p>
+                        </div>
+                        <div>
+                            <h5>Address</h5>
+                            <p>5309 Chieftain Cir</p>
+                            <p>Alexandria, VA 22312</p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
